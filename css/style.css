@@ -211,11 +211,20 @@ img {
     flex: 0 0 calc(50% - 1rem);
   } */
 
-	/* Uso con grid */
+  /* Uso con grid */
 
   .sobre-nosotros {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 2rem;
   }
+}
+
+/* Contacto */
+
+.contacto-bg {
+  background-image: url(../img/contacto.jpg);
+  height: 40rem;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
